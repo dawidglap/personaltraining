@@ -15,6 +15,7 @@ html,body{
  --color-black: #000; 
  --color-orange: #ff7b19;
  --color-blue: #202FFF;
+ --color-light-grey: #F0F1F2;
 }
 h6{
     font-family: 'Oxygen Mono', monospace;
@@ -165,14 +166,8 @@ h6{
         font-size: 16px;
     }
 
-    /* .hero-img{
-        position: relative;
-        top: -40px;
-        min-height: 50vh;
-        object-fit: cover;
-        z-index: 1;
-    } */
-
+   
+    
  
 }
 
@@ -182,6 +177,8 @@ h6{
     .custom-shape-divider-bottom-1661008270 .shape-fill {
         fill: white;
     }
+
+   
     /* .img-wrapper{
         position: relative;
         top: 35%;
@@ -199,7 +196,7 @@ h6{
 
 /* BUTTONS  */
 .bg-btn-custom{
-    background-color: #F0F1F2;
+    background-color: var(--color-light-grey);
     transition: background-color 0.175s ease;
     color: var(--color-black) !important;
     font-weight: 400;
@@ -274,7 +271,6 @@ h1,h2{
 
 .carousel-img{
   height: 65vh;
-  /* width: 90vw; */
 }
 
 /* img{
@@ -283,3 +279,10 @@ h1,h2{
 
 
 /* END CAROUSEL  */
+
+/* VANTAGGI SECTION  */
+
+
+.bg-grey{
+  background-color: var(--color-light-grey);
+}
