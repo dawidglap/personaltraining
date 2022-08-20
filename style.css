@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body{
+    overflow-x: hidden !important;
+}
+
+:root{
+ --color-grey: #a1a5ab;
+ --color-white: #fff;
+ --color-black: #000; 
+ --color-orange: #ff7b19;
+ --color-blue: #202FFF;
+}
+h6{
+    font-family: 'Oxygen Mono', monospace;
+    color: var(--color-blue);
+}
+
+/* BOOTSTRAP CLASS OVERWRITTEN  */
+.bg-dark{
+    background-color: black !important;
+}
+
+.text-secondary{
+    color: var(--color-grey) !important;
+}
+
+
+
+/* END BOOTSTRAP OVERWRITING  */
+
+
+
+/* NAVBAR  */
+.custom-logo{
+    position: relative;
+    top: -4px;
+   height: 25px;
+}
+.text-accent{
+    color: var(--color-orange) !important;
+}
+
+.nav-link{
+    color: var(--color-grey) !important;
+    font-weight: 300;
+}
+
+.nav-link:hover{
+    color: var(--color-white) !important;
+}
+
+
+
+.navbar{
+    border-bottom: 2px solid black !important;
+    box-shadow: 1px 1px black !important;
+}
+
+
+
+/* END NAVBAR */
+
+/* HERO SECTION */
+
+.bg-black{
+    background-color: var(--color-black);
+}
+
+
+.custom-shape-divider-top-1661006800 {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1661006800 svg {
+    position: relative;
+    display: block;
+    width: calc(250% + 1.3px);
+    height: 76px;
+}
+
+.custom-shape-divider-top-1661006800 .shape-fill {
+    fill: black;
+}
+
+
+
+
+
+.custom-shape-divider-bottom-1661008270 {
+    position: absolute;
+    bottom: -0.5px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1661008270 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 76px;
+
+}
+
+.custom-shape-divider-bottom-1661008270 .shape-fill {
+    fill: black;
+}
+
+.wrapper{
+    position: relative;
+}
+
+
+
+.border-start{
+    border-color: var(--color-grey) !important;
+}
+
+
+  .border-custom{
+     border-radius: 0;
+  }
+
+@media only screen and (min-width: 768px){
+    .border-start{
+        border: none !important;
+    }
+}  
+
+.fs-custom{
+    font-size: 48px ;
+}
+
+.fs-custom-2{
+    font-size: 40px;
+}
+
+.fs-p{
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 576px){
+    .fs-custom{
+        font-size: 32px;
+    }
+
+    .fs-custom-2{
+        font-size: 28px;
+    }
+
+    .fs-p{
+        font-size: 16px;
+    }
+
+    /* .hero-img{
+        position: relative;
+        top: -40px;
+        min-height: 50vh;
+        object-fit: cover;
+        z-index: 1;
+    } */
+
+ 
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .custom-shape-divider-bottom-1661008270 .shape-fill {
+        fill: white;
+    }
+    /* .img-wrapper{
+        position: relative;
+        top: 35%;
+    } */
+}
+
+
+.padding-custom{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+}
+
+/* END HERO SECTION  */
+
+/* BUTTONS  */
+.bg-btn-custom{
+    background-color: #F0F1F2;
+    transition: background-color 0.175s ease;
+    color: var(--color-black) !important;
+    font-weight: 400;
+}
+
+.bg-dark{
+    font-weight: 400;
+    transition: background-color 0.175s ease;
+    font-weight: 400;
+    
+}
+
+.bg-dark:hover{
+    background-color: rgb(40,40,40) !important;
+}
+
+.bg-btn-custom:hover{
+    background-color: rgb(218, 217, 217);
+    color: var(--color-black) !important;
+    font-weight: 400;
+}
+
+.text-white{
+    color: var(--color-white) !important;
+}
+
+.btn-icon{
+    width: 12.5px;
+}
+
+.btn-icon-2{
+    width: 14px; 
+}
+
+.btn-icon-white{
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(172deg) brightness(103%) contrast(101%); 
+}
+
+.vw-custom{
+    min-width: 250px;
+}
+
+.font-custom{
+    font-size: 14px;
+}
+
+.filtered-icon{
+    backdrop-filter: invert();
+}
+
+.menu-icon{
+    width: 24px;
+}
+
+.navbar-toggler {
+    border-color: transparent !important;
+}
+
+/* END BUTTONS  */
+
+/* FEATURES SECTION  */
+h1,h2{
+    /* letter-spacing: 0.1px !important; */
+}
+/* END FEATURES SECTION  */
+
+/* START CAROUSEL  */
+.carousel-inner{
+    height: 65vh;
+    /* width: 90vw; */
+}
+
+.carousel-img{
+  height: 65vh;
+  /* width: 90vw; */
+}
+
+/* img{
+    object-fit: contain !important;
+} */
+
+
+/* END CAROUSEL  */
