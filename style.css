@@ -388,5 +388,52 @@ h1,h2{
 
 
 /* NUTRITION SECTION  */
+.custom-overflow{
+    overflow: hidden !important;
+}
+
+.bg-nutrition-1{
+   /* background-image: url('./images/break1.png'); */
+   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./images/break1.png");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 250px;
+   transition: .3s ease;
+
+}
+
+.bg-nutrition-1:hover{
+     background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("./images/break1.png");
+     transition: 0.3s ease;
+     /* background-size: 250%; */
+}
+
+.border-bottom-custom{
+    /* position: absolute; */
+    /* left: 30%; */
+    width: 60% ;
+}
+
+@media only screen and (max-width: 576px){
+    .bg-nutrition-1{
+     background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("./images/break1.png");
+
+    }
+
+    .lead-custom{
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+   p{
+    font-size: 20px;
+   }
+}
 
 
