@@ -532,3 +532,14 @@ h1,h2{
 .text-inactive{
     color: var(--color-grey);
 }
+
+/* FOOTER  */
+
+.fs-smaller{
+    font-size: 12px;
+}
+
+.text-grey{
+    color: var(--color-grey);
+    
+}
