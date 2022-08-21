@@ -61,6 +61,7 @@ h6{
 .navbar{
     border-bottom: 2px solid black !important;
     box-shadow: 1px 1px black !important;
+    padding: 2px !important;
 }
 
 
@@ -166,6 +167,10 @@ h6{
         font-size: 16px;
     }
 
+    .btn-icon-navbar{
+        width: 12.4px !important;
+    }
+
    
     
  
@@ -224,8 +229,10 @@ h6{
 }
 
 .btn-icon{
-    width: 12.5px;
+    width: 14.5px;
 }
+
+
 
 .btn-icon-2{
     width: 14px; 
@@ -357,13 +364,13 @@ h1,h2{
 /* VANTAGGI SECTION  */
 @media only screen and (min-width: 768px){
     
-    .vantaggi-height{
+    /* .vantaggi-height{
         height: 100vh;
-    }
+    } */
 
-    .nutrition-height{
+    /* .nutrition-height{
         height: 100vh;
-    }
+    } */
 }
 
 .bg-grey{
@@ -393,12 +400,11 @@ h1,h2{
 }
 
 .bg-nutrition-1{
-   /* background-image: url('./images/break1.png'); */
    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./images/break1.png");
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-   min-height: 250px;
+   min-height: 45vh;
    transition: .3s ease;
 
 }
@@ -406,8 +412,52 @@ h1,h2{
 .bg-nutrition-1:hover{
      background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("./images/break1.png");
      transition: 0.3s ease;
-     /* background-size: 250%; */
 }
+
+.bg-nutrition-2{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://hips.hearstapps.com/hmg-prod/images/young-man-bending-forward-with-exhaustion-in-royalty-free-image-1583592789.jpg?crop=0.668xw:1.00xh;0.257xw,0&resize=640:*");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 45vh;
+    transition: .3s ease;
+ 
+ }
+ 
+ .bg-nutrition-2:hover{
+      background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("https://hips.hearstapps.com/hmg-prod/images/young-man-bending-forward-with-exhaustion-in-royalty-free-image-1583592789.jpg?crop=0.668xw:1.00xh;0.257xw,0&resize=640:*");
+      transition: 0.3s ease;
+ }
+
+ .bg-nutrition-3{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(" https://thumbs.dreamstime.com/b/health-conscious-couple-cooking-healthy-food-diet-eating-fitness-lifestyle-proper-nutrition-low-calorie-dinner-home-kitchen-133916800.jpg ");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 45vh;
+    transition: .3s ease;
+ 
+ }
+ 
+ .bg-nutrition-3:hover{
+      background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(" https://thumbs.dreamstime.com/b/health-conscious-couple-cooking-healthy-food-diet-eating-fitness-lifestyle-proper-nutrition-low-calorie-dinner-home-kitchen-133916800.jpg ");
+      transition: 0.3s ease;
+ }
+
+ .bg-nutrition-4{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(" https://thumbs.dreamstime.com/b/home-gym-workout-online-exercise-app-phone-fit-woman-watching-training-tutorial-video-using-digital-personal-trainer-183971481.jpg ");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 45vh;
+    transition: .3s ease;
+ 
+ }
+ 
+ .bg-nutrition-4:hover{
+      background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(" https://thumbs.dreamstime.com/b/home-gym-workout-online-exercise-app-phone-fit-woman-watching-training-tutorial-video-using-digital-personal-trainer-183971481.jpg ");
+      transition: 0.3s ease;
+ }
 
 .border-bottom-custom{
     /* position: absolute; */
@@ -415,9 +465,25 @@ h1,h2{
     width: 60% ;
 }
 
+
 @media only screen and (max-width: 576px){
     .bg-nutrition-1{
      background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("./images/break1.png");
+     border-bottom: 1.5px solid var(--color-grey);
+    }
+    .bg-nutrition-2{
+      background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("https://hips.hearstapps.com/hmg-prod/images/young-man-bending-forward-with-exhaustion-in-royalty-free-image-1583592789.jpg?crop=0.668xw:1.00xh;0.257xw,0&resize=640:*");
+      border-bottom: 1.5px solid var(--color-grey);
+     
+    }
+
+    .bg-nutrition-3{
+      background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(" https://thumbs.dreamstime.com/b/health-conscious-couple-cooking-healthy-food-diet-eating-fitness-lifestyle-proper-nutrition-low-calorie-dinner-home-kitchen-133916800.jpg ");
+      border-bottom: 1.5px solid var(--color-grey);
+    }
+
+    .bg-nutrition-4{
+      background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(" https://thumbs.dreamstime.com/b/home-gym-workout-online-exercise-app-phone-fit-woman-watching-training-tutorial-video-using-digital-personal-trainer-183971481.jpg ");
 
     }
 
@@ -434,6 +500,35 @@ h1,h2{
    p{
     font-size: 20px;
    }
+
+   .p-small{
+    font-size: 16px;
+   }
 }
 
 
+/* COME FUNZIONA SECTION  */
+@media only screen and (min-width: 768px){
+
+.custom-margin{
+    margin-top: 5%;
+    margin-left: -10%;
+    /* margin-right: 12px; */
+    margin-bottom: -5%;
+}
+}
+@media only screen and (max-width: 576px){
+
+.img-custom-position{
+    position: relative;
+    top:5%;
+}
+}
+
+.display-7{
+    font-size: 24px;
+}
+
+.text-inactive{
+    color: var(--color-grey);
+}
