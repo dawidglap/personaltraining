@@ -264,14 +264,21 @@ h1,h2{
 /* END FEATURES SECTION  */
 
 /* START CAROUSEL  */
+.carousel-item > img{
+    height: 400px !important;
+    object-fit:cover;
+    object-position: top;
+}
 .carousel-inner{
-    height: 65vh;
+    /* height: 65vh; */
     /* width: 90vw; */
 }
 
 .carousel-img{
-  height: 65vh;
+  /* height: 65vh; */
 }
+
+
 
 /* img{
     object-fit: contain !important;
@@ -280,9 +287,106 @@ h1,h2{
 
 /* END CAROUSEL  */
 
-/* VANTAGGI SECTION  */
+/* COACH SECTION */
+.featured-img{
+    /* height: 100%; */
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden !important;
+}
 
+.mt-negative{
+    position: relative;
+    top: -30px;
+}
+
+.bg-featured-img1{
+    position: relative;
+    top: 30px;
+    background-image: url('./images/parallele.jpeg');
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+}
+
+.bg-featured-img2{
+    position: relative;
+    top: 70px;
+    background-image: url('./images/atleta.jpeg');
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+
+}
+
+.bg-featured-img3{
+    position: relative;
+    top: 30px;
+    background-image: url('./images/ropes.jpg');
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+
+}
+
+.bg-featured-img4{
+    position: relative;
+    top: 70px;
+    background-image: url('./images/torre.jpg');
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+
+}
+
+@media only screen and (min-width:768px) {
+    .vh-md-100{
+        height: 100vh;
+    }
+    .margin-top-custom{
+        margin-top: 10%;
+    }
+}
+
+
+
+/* VANTAGGI SECTION  */
+@media only screen and (min-width: 768px){
+    
+    .vantaggi-height{
+        height: 100vh;
+    }
+
+    .nutrition-height{
+        height: 100vh;
+    }
+}
 
 .bg-grey{
   background-color: var(--color-light-grey);
 }
+
+.bg-vantaggi{
+    /* height: 100%; */
+    background: linear-gradient(180deg, white 50%, var(--color-light-grey) 50%);
+}
+
+.flipper{
+    transform: scaleX(-1);
+  }
+
+.trademark{
+    height: 60px;
+    position: relative;
+    top: -3px;
+    left: -18px;
+}
+
+
+/* NUTRITION SECTION  */
+
+
